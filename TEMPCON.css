@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+body
+{
+    height: 100vh;
+    background-color: rgb(110, 240, 181);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    width: 450px;
+    background-color: #fff;
+    padding: 70px 50px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.csft
+{
+    width: 45%;
+}
+
+input
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #d2d2d2;
+    outline: none;
+    margin-top: 8px;
+    padding: 0 10px;
+    
+}
+
+
+
